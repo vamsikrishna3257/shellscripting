@@ -12,3 +12,4 @@ b=abc
 echo $a   #$a is used to print the value of a
 
 echo $b 
+echo "the value of c is $c"
