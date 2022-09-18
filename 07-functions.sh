@@ -6,7 +6,8 @@
 # We are declaring a funciton fa
 
 # This will call / pull all the functions/ vars from the external file. So that you can call and use them.
- 
+
+source ./ common.sh 
 
 LOADAVG="$(uptime | awk -F : '{print $NF}' | awk -F , '{print $1}')"
 
@@ -32,3 +33,7 @@ stat() {
 }
 
 echo "Calling stat function"
+stat
+
+echo -e "\e[32m Calling common_fun function from external file \e[0m"
+common_fun
