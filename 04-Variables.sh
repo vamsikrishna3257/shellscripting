@@ -6,3 +6,5 @@ DATE_COMMAND=$(date +%F)
 echo "Good Morning, Today's Date is $DATE_COMMAND"
 
 
+echo "Number of opened sessions are $(who | wc -l)"
+
