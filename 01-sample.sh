@@ -1,12 +1,13 @@
-#!bin/bash
+#!/bin/bash
 
-#first line should always be SHEBANG Notataion and # can be used as comment
+# First line should always be SHEBANG Notation and should be only one SHEBANG Notation apart from that # will be referred as comment
 echo "Hello World"
 
-#printing two lines
-echo "hai"
-echo "hello"
+## Printinhg Multiple lines
 
-## \n : new line ; \t: new tab
+echo "Hai"
+echo "Hello"
 
-echo -e "hai\nhello"
+## \n : New LIne ;  ## \t : Tab Space 
+
+echo -e "Hai\n\tHello"
